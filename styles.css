@@ -88,8 +88,8 @@ ul {
     z-index: -1000;
     opacity: 0.6;
 /*bLureffect*/   
-    filter: blur(4px);
-    -webkit-filter: blur(4px);
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
 }
 p {
     font-size: 20px;
