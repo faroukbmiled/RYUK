@@ -87,6 +87,9 @@ ul {
     background-size: cover;
     z-index: -1000;
     opacity: 0.6;
+/*bLureffect*/   
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
 }
 p {
     font-size: 20px;
