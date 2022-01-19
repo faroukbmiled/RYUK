@@ -1,0 +1,104 @@
+html {
+    display: flex;
+    flex-direction: column;
+    scroll-behavior: smooth;
+}
+body,main {
+    display: flex;
+    flex-direction: column;
+}
+article {
+    flex: 2;
+    overflow: auto;
+}
+aside {
+    flex:1;
+    overflow-y: auto;
+    height: 1000px;
+}
+
+
+main {
+    flex-direction: row;
+    flex: auto;
+}
+/* Menu Navigation*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  /*end of Menu style*/
+
+  footer {
+      position: relative;
+      bottom: 0px;
+  }
+
+
+/* Title style */
+  .at-item {
+    color: #3079ed;
+    animation-name: fade-in;
+    animation-duration: 4s;
+    animation-timing-function: normal;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(49, 48, 47);
+  }
+  @keyframes fade-in {
+    0%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+  }
+/*end of style*/  
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/cryp.jpg);
+    background-size: cover;
+    z-index: -1000;
+    opacity: 0.6;
+}
+p {
+    font-size: 20px;
+}
+footer a {
+    color: rgb(255, 0, 98) !important;
+    text-decoration: none;
+}
+footer span {
+    color: blue !important;
+}
+.big {
+  width: 60%;
+  height: 60%;
+}
