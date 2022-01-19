@@ -64,9 +64,10 @@ ul {
     animation-iteration-count: 1;
     animation-direction: normal;
     animation-fill-mode: none;
+    height: 60px;
     text-align: center;
-    font-size: 30px;
-    color: rgb(49, 48, 47);
+    font-size: 45px;
+    color: #e98b2d;
   }
   @keyframes fade-in {
     0%{
@@ -86,8 +87,9 @@ ul {
     animation-iteration-count: 1;
     animation-direction: normal;
     animation-fill-mode: none;
+    height: 60px;
     text-align: center;
-    font-size: 45px;
+    font-size: 55px;
     color: rgb(0, 172, 238);
   }
   @keyframes fade-in {
